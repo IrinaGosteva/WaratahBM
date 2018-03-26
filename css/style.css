@@ -188,19 +188,22 @@ input, textarea, input:before, textarea:before, input:after, textarea:after {
   width: 890px;
   padding: 0 10px;
   margin: 0 auto; }
+  @media (max-width: 1024px) {
+    .container {
+      width: 100%; } }
   @media (max-width: 767px) {
     .container {
-      width: 750px; } }
+      width: 100%; } }
   @media (max-width: 599px) {
     .container {
-      width: 577px; } }
+      width: 100%; } }
   @media (max-width: 480px) {
     .container {
-      width: 478px;
+      width: 100%;
       padding: 0; } }
   @media (max-width: 320px) {
     .container {
-      width: 320px; } }
+      width: 100%; } }
 
 .slicknav_menu {
   display: none; }
